@@ -1,7 +1,7 @@
 version: '3'
 services:
   build-env:
-    build: build-env
+    build: .
     volumes:
-    - ./src:/src
+    - ../:/src
     working_dir: /src
